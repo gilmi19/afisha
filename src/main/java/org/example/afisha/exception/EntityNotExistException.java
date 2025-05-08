@@ -1,4 +1,7 @@
 package org.example.afisha.exception;
 
-public class EntityNotExistException {
+import lombok.experimental.StandardException;
+
+@StandardException
+public class EntityNotExistException extends RuntimeException{
 }

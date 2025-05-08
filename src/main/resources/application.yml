@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url:
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+
+init:
+  file-name: src/main/resources/init.sqljdbc:postgresql://localhost:5432/afisha

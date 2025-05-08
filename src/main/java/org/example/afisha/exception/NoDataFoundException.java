@@ -1,4 +1,7 @@
 package org.example.afisha.exception;
 
-public class NoDataFoundException {
+import lombok.experimental.StandardException;
+
+@StandardException
+public class NoDataFoundException extends RuntimeException{
 }
